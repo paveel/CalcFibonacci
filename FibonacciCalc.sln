@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciCalcApi", "FibonacciCalcApi\FibonacciCalcApi.csproj", "{ACC117D9-59F8-408D-B79F-FEFE91DD06B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciCalc", "FibonacciCalc\FibonacciCalc.csproj", "{B5D3D228-8C57-444A-A23B-8E588A3D022A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciCalcApp", "FibonacciCalcApp\FibonacciCalcApp.csproj", "{D286898F-87E1-465E-AC8A-68D1BBCD50F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciCalc.ApiClient", "FibonacciCalc.ApiClient\FibonacciCalc.ApiClient.csproj", "{0C89066C-5839-4CC5-9FAD-C2DEEEA10AD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3E5D23B0-1A84-4D78-8E58-1FE1EE917B84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciCalcApi.Tests", "Tests\FibonacciCalcApi.Tests\FibonacciCalcApi.Tests.csproj", "{08D3CE4B-E147-4D5C-BE35-065D485C3201}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciCalc.Tests", "Tests\FibonacciCalc.Tests\FibonacciCalc.Tests.csproj", "{3B003DF8-1359-4A6A-8BDC-A19E71D41213}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{82C6345A-EAE0-4EBD-8BC5-BD4E35252BF5}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACC117D9-59F8-408D-B79F-FEFE91DD06B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC117D9-59F8-408D-B79F-FEFE91DD06B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC117D9-59F8-408D-B79F-FEFE91DD06B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC117D9-59F8-408D-B79F-FEFE91DD06B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D3D228-8C57-444A-A23B-8E588A3D022A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D3D228-8C57-444A-A23B-8E588A3D022A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D3D228-8C57-444A-A23B-8E588A3D022A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D3D228-8C57-444A-A23B-8E588A3D022A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D286898F-87E1-465E-AC8A-68D1BBCD50F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D286898F-87E1-465E-AC8A-68D1BBCD50F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D286898F-87E1-465E-AC8A-68D1BBCD50F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D286898F-87E1-465E-AC8A-68D1BBCD50F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C89066C-5839-4CC5-9FAD-C2DEEEA10AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C89066C-5839-4CC5-9FAD-C2DEEEA10AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C89066C-5839-4CC5-9FAD-C2DEEEA10AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C89066C-5839-4CC5-9FAD-C2DEEEA10AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08D3CE4B-E147-4D5C-BE35-065D485C3201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D3CE4B-E147-4D5C-BE35-065D485C3201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D3CE4B-E147-4D5C-BE35-065D485C3201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D3CE4B-E147-4D5C-BE35-065D485C3201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B003DF8-1359-4A6A-8BDC-A19E71D41213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B003DF8-1359-4A6A-8BDC-A19E71D41213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B003DF8-1359-4A6A-8BDC-A19E71D41213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B003DF8-1359-4A6A-8BDC-A19E71D41213}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08D3CE4B-E147-4D5C-BE35-065D485C3201} = {3E5D23B0-1A84-4D78-8E58-1FE1EE917B84}
+		{3B003DF8-1359-4A6A-8BDC-A19E71D41213} = {3E5D23B0-1A84-4D78-8E58-1FE1EE917B84}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6F8C8B4-4233-41B7-9BB0-40EAFFE6376E}
+	EndGlobalSection
+EndGlobal
